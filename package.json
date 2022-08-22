@@ -1,0 +1,23 @@
+{
+  "name": "yinghuo-officialsite",
+  "version": "0.0.1",
+  "description": "Yinghuo Offcial Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZiWen243/Yinghuo-OfficialSite.git"
+  },
+  "keywords": [
+    "site",
+    "Yinghuo"
+  ],
+  "author": "YinghuoWork",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZiWen243/Yinghuo-OfficialSite/issues"
+  },
+  "homepage": "https://github.com/ZiWen243/Yinghuo-OfficialSite#readme"
+}
