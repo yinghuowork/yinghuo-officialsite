@@ -44,7 +44,7 @@ jobs:
         id: version
         uses: ashley-taylor/read-json-property-action@v1.0
         with:
-           path: ./index.html
+           path: ./dist/friend.json
            property: date
 
 
