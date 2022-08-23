@@ -39,10 +39,11 @@ jobs:
         run: |
           git config --global user.email i@w03.cc
           git config --global user.name github-actions[bot]
-          
+
       - name: 发布npm包
         if: env.NPM_TOKEN && env.NPM_NAME
         run: |
+          node index.js
           npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
           npm publish
         env:
