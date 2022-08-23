@@ -40,14 +40,6 @@ jobs:
           git config --global user.email i@w03.cc
           git config --global user.name github-actions[bot]
           
-      - name: 读取生成时间戳作为版本号
-        id: version
-        uses: ashley-taylor/read-json-property-action@v1.0
-        with:
-           path: ./update.json
-           property: date
-
-
       - name: 发布npm包
         if: env.NPM_TOKEN && env.NPM_NAME
         run: |
